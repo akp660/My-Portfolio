@@ -318,7 +318,7 @@ section .button button:hover{
 }
 .services .boxes .box{
   margin: 20px 0;
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 4 - 20px);
   text-align: center;
   border-radius: 12px;
   padding: 30px 10px;
