@@ -362,7 +362,7 @@ section .button button:hover{
 .contact{
   background: #F0F8FF;
   background-attachment: fixed;
-  background: url("images/ContactUs2.jpg") no-repeat;
+  background: url("https://github.com/akp660/My-Portfolio/blob/78d7d99b0716e3b2ccd9ccdaaa211ecd95f2220a/Images/ContactUs2.jpg") no-repeat;
   background-size: cover;
   height: 87vh;
   width: 100%;
