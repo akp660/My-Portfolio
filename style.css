@@ -1,5 +1,5 @@
 /* Google Font CDN Link */
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 
 *{
@@ -33,7 +33,7 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Grape Nuts', cursive;
+  font-family: 'Merriweather', serif;
 }
 nav.sticky{
   background: #4070f4;
@@ -118,7 +118,7 @@ nav.sticky .menu-btn{
   background-size: 500px;
   background-position: right;
   background-attachment: fixed;
-  font-family: 'Grape Nuts', cursive;
+  font-family: 'Merriweather', serif;
 }
 .home .home-content{
   width: 90%;
@@ -178,7 +178,7 @@ section{
 section .content{
   width: 80%;
   margin: 40px auto;
-  font-family: 'Grape Nuts', cursive;
+  font-family: 'Merriweather', serif;
 }
 .about .about-details{
   display: flex;
@@ -386,7 +386,7 @@ footer{
   background: #4070f4;
   padding: 15px 0;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 footer .text span{
   font-size: 17px;
