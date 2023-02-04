@@ -1,6 +1,6 @@
 /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 
 
 *{
@@ -34,7 +34,7 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Merriweather', serif;
+  font-family: 'Kalam', cursive;
 }
 nav.sticky{
   background: #4070f4;
@@ -119,7 +119,7 @@ nav.sticky .menu-btn{
   background-size: 500px;
   background-position: right;
   background-attachment: fixed;
-  font-family: 'Merriweather', serif;
+  font-family: 'Kalam', cursive;
 }
 .home .home-content{
   width: 90%;
@@ -179,7 +179,7 @@ section{
 section .content{
   width: 80%;
   margin: 40px auto;
-  font-family: 'Merriweather', serif;
+  font-family: 'Kalam', cursive;
 }
 .about .about-details{
   display: flex;
@@ -387,7 +387,7 @@ footer{
   background: #4070f4;
   padding: 15px 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Kalam', cursive;
 }
 footer .text span{
   font-size: 17px;
