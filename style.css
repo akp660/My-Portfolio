@@ -116,7 +116,7 @@ nav.sticky .menu-btn{
   width: 100%;
   background: #F0F8FF;
   background: url("Images/Dev1.png") no-repeat;
-  background-size: 500px;
+  background-size: 30%;
   background-position: right;
   background-attachment: fixed;
   font-family: 'Laila', sans-serif;
@@ -130,22 +130,22 @@ nav.sticky .menu-btn{
   justify-content: center;
 }
 .home .text-one{
-  font-size: 25px;
+  font-size: 250%;
   color: #0E2431;
 }
 .home .text-two{
   color: #0E2431;
-  font-size: 50px;
+  font-size: 300%;
   font-weight: 450;
   margin-left: -3px;
 }
 .home .text-three{
-  font-size: 40px;
+  font-size: 200%;
   margin: 5px 0;
   color: #4070f4;
 }
 .home .text-four{
-  font-size: 23px;
+  font-size: 150%;
   margin: 5px 0;
   color: #0E2431;
 }
@@ -303,11 +303,11 @@ section .button button:hover{
   margin: 20px 0;
 }
 .skills-details .boxes .topic{
-  font-size: 20px;
+  font-size: 100%;
   color: #4070f4;
 }
 .skills-details .boxes .per{
-  font-size: 40px;
+  font-size: 200%;
   color: #4070f4;
 }
 
@@ -329,6 +329,9 @@ section .button button:hover{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
+}
+.services .boxes .box .about{
+  color: #000;
 }
 .services .boxes .box:hover{
   background: #4070f4;
@@ -383,6 +386,9 @@ section .button button:hover{
   width: 80%;
   text-align: center;
   margin: auto;
+}
+.contact .content .about{
+  padding-top: 10%;
 }
 
 /* Footer CSS */
