@@ -264,11 +264,10 @@ section  .topic{
  
  .cta span {
   position: relative;
-  font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #234567;
+  color: #262626;
  }
  
  .cta svg {
@@ -278,7 +277,7 @@ section  .topic{
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #234567;
+  stroke: #409bf6;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -339,22 +338,60 @@ section  .topic{
   margin: 0 6px;
 }
 .skills-details .boxes{
-  width: 45%;
+  width: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.skills-details .box{
-  width: calc(100% / 3 - 20px);
-  margin: 20px 0;
+.card {
+  width: auto;
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
-.skills-details .boxes .topic{
-  font-size: 100%;
-  color: #4070f4;
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
 }
-.skills-details .boxes .per{
-  font-size: 200%;
-  color: #4070f4;
+
+.body {
+  padding: 20px;
+  text-align: center;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  width: 120px;
+  font-size: 16px;
+}
+
+.skill-level {
+  width: 160px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.skill-percent {
+  background-color: #333;
+  height: 100%;
+}
+
+.skill-percent-number {
+  margin-left: 20px;
+  font-size: 16px;
 }
 
 /* My Services CSS */
