@@ -104,7 +104,7 @@ nav.sticky .media-icons a{
 
 
 .card {
-  width: fit-content;
+  width: 90%;
   max-width: 1200px;
   height: 400px;
   max-height: fit-content;
