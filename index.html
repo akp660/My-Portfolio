@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website | Abhijeet</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("IkrGyVdnS4mKwOCCk");
+   })();
+</script>
+  </head>
+
+  <body>
+    <!-- header design -->
+
+    <header class="header">
+      <a href="" class="logo">Portfolio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+
+        
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3 id="time">Hello,</h3> 
+          <!-- <h3>It's Me</h3> -->
+        <h1>Abhijeet Kumar Pandey</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>I'm a Front-End Developer,<a href="https://play.google.com/store/apps/dev?id=9023898462559943123"> Android Developer</a> and <a href="https://dribbble.com/Akp660">UI/UX Designer</a>. 
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/devops01/"><i class='bx bxl-linkedin' ></i></a>
+          <a href="https://github.com/akp660"><i class='bx bxl-github' ></i></a>
+          <a href="https://www.instagram.com/abhijeet_7255/"><i class='bx bxl-instagram' ></i></a> 
+
+        </div>
+        <a href="/images/Abhijeet.pdf" class="btn" download="Resume">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="/images/Group.sv" alt="">
+      </div>
+       <div class="popup" id="popup1">
+          <img src="/images/Tick.gif" alt="">
+          <h2>Thank You!</h2>
+          <p>The message is successfully sent to Abhijeet. Contact to you soon.....</p>
+          <button class="btn" onclick="closePopup()">ok</button>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <!-- <section class="about" id="about">
+      <div class="about-img">
+        <img src="/images/Group.svg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ab impedit alias eius veniam omnis ipsum molestias ducimus quasi corrupti dignissimos quam, obcaecati laborum aliquid rerum totam repudiandae dolorem possimus!</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section> -->
+    
+    <!-- education sction -->
+     
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Journey</span></h2>
+
+      <div class="education-row">
+        <div class="education-column">
+          <h3 class="title">Experience</h3>
+          <div class="education-box">
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><i class='bx bx-calendar'></i> Nov 2023 - Ongoing...</div>
+                <h3>Android Development - Travel Sathi (will be available soon on playstore) </h3>
+                <p>Travel Sathi is an android application which will connect multiple people and help him in tour planning, A complete new concept to travel with unknown people, this will be benificial for solo-traveler. </p>
+                <p> <br> <h3> This is a group project</h3>
+                  <p> I'll be dealing with UI/UX Designing and Front-End Development.</p>
+                </p>
+                <p> <br> <h3> Technology used in this project  </h3>
+                  <p> Firebase :- Firebase has been use for Login/Signup and to store user data and app data.<br>
+                    Android Studio :- Android Studio Software has been use to develop this application. <br>
+                    Motion Layout :- Motion Layout has been use in this app to create animation and make app more attractive <br>
+                    XML :- XML is use to create Front-End of this application.
+                    Figma :- Figma Software will be use for UI/UX Designing.</p>
+                </p>
+            </div>
+          </div>
+
+            <div class="education-content">
+              <div class="content">
+                <div class="year"><i class='bx bx-calendar'></i>Nov 2023 - Dec 2023</div>
+                <h3>Intern UI/UX Designer - EleviQ Software Inc. </h3>
+                <p>Currently doing internship at EleviQ Software Inc. , a software development company specializing in App Development.</p>
+                <p><br>Working as Front-End Designer UI/UX designer. <br> I am creatig verson 2 of a Android Appliocation, An Android App which will be for children age between 3-13 years, this app will provide several Books and Audio Books.</p><br>
+                <h3>Technology Used </h3> <p>Figma :- To make UI/UX of this application i have used figma and created a prototype with animated with workflow.</p>
+            </div>
+          </div>
+
+          <div class="education-content">
+            <div class="content">
+              <div class="year"><i class='bx bx-calendar'></i> Aug 2023 - Oct 2023</div>
+              <h3>Android Development - <a href="https://play.google.com/store/apps/details?id=com.abhijeet.ganpatiapp&pcampaignid=web_share"> Ganpati (Self Project) </a> </h3>
+              <p>Ganpati is publically available on Google Play Store. This application is a religious app which provide religious things like  (Aarti, Kundali-service at your fingure tips)  Using this app you can book priest and talk to prist on whatshapp directly and many mmore...</p>
+              <p> <br> <h3> Technology used in this project  </h3>
+                <p> Firebase :- Firebase has been use for Login/Signup and to store user data and app data.<br>
+                  Android Studio :- Android Studio Software has been use to develop this application. <br>
+                  Motion Layout :- Motion Layout has been use in this app to create animation and make app more attractive <br>
+                  XML :- XML is use to create Front-End of this application.</p>
+              </p>
+          </div>
+        </div>
+
+        <div class="education-content">
+          <div class="content">
+            <div class="year"><i class='bx bx-calendar'></i> 2023 - 2023</div>
+            <h3>Flutter Developer - Shami Innovation and Technologies Limited.</h3>
+            <p>As a front-end developer at the Shami Innovation and Technologies Limited, a organization focused on exploring and promoting new technologies, I played a key role in designing and developing engaging interfaces for projects and initiatives. UI/UX. </p>
+
+        </div>
+      </div>
+
+      <div class="education-content">
+        <div class="content">
+          <div class="year"><i class='bx bx-calendar'></i>May 2023 - Jun 2023</div>
+          <h3>Android Development - <a href="https://play.google.com/store/apps/details?id=com.abhijeet.vitb"> Foody (Mes-Menu of VIT) </a> </h3>
+          <p>Foody is publically available on Google Play Store. This Application shows mess menu on your fingure tips - daily mess menu with notification feature.</p>
+          <p> <br> <h3> Technology used in this project  </h3>
+            <p> Firebase :- Firebase has been use for Login/Signup and to store user data and app data.<br>
+              Android Studio :- Android Studio Software has been use to develop this application. <br>
+              Motion Layout :- Motion Layout has been use in this app to create animation and make app more attractive <br>
+              XML :- XML is use to create Front-End of this application.</p>
+          </p>
+      </div>
+    </div>
+
+      </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-row">
+        <div class="skills-column">
+          <h3 class="title">Technology</h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>Kotlin<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Java<span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>XML<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Python<span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>C++<span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Responsive UI<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <h3 class="title">Professional Skills</h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>Android Studio<span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Figma <span>75%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Git<span>  80% </span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Adobe Premium Pro<span>  80% </span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Flutter<span>  40% </span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- services section design -->
+
+    <!-- <section class="services" id="services" >
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code'></i>
+          <h3>Web Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sint optio soluta perferendis tenetur quos accusantium, est assumenda cupiditate, quia nisi veritatis? Qui accusamus dignissimos unde possimus, cupiditate commodi modi!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bxl-sketch'></i>
+          <h3>Web Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sint optio soluta perferendis tenetur quos accusantium, est assumenda cupiditate, quia nisi veritatis? Qui accusamus dignissimos unde possimus, cupiditate commodi modi!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bx-code-block'></i>
+          <h3>Python code</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sint optio soluta perferendis tenetur quos accusantium, est assumenda cupiditate, quia nisi veritatis? Qui accusamus dignissimos unde possimus, cupiditate commodi modi!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="project">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="/images/pro1.png" alt="">
+          <div class="portfolio-layer">
+            <h4>..</h4>
+            <p>..</p>
+            <a href=".."><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      
+
+      
+        <div class="portfolio-box">
+          <img src="/images/pro2.png" alt="">
+          <div class="portfolio-layer">
+            <h4>..</h4>
+            <p>..</p>
+            <a href=".."><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+     
+
+      
+        <div class="portfolio-box">
+          <img src="/images/pro3.png" alt="">
+          <div class="portfolio-layer">
+            <h4>..</h4>
+            <p>..</p>
+            <a href=".."><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      
+
+      
+        <div class="portfolio-box">
+          <img src="/images/pro4.png" alt="">
+          <div class="portfolio-layer">
+            <h4>..</h4>
+            <p>..</p>
+            <a href=".."><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      
+
+      
+        <div class="portfolio-box">
+          <img src="/images/pro5.png" alt="">
+          <div class="portfolio-layer">
+            <h4>..</h4>
+            <p>..</p>
+            <a href=".."><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+    
+
+      
+        <div class="portfolio-box">
+          <img src="/images/pro6.png" alt="">
+          <div class="portfolio-layer">
+            <h4>..</h4>
+            <p>..</p>
+            <a href=".."><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+
+     <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" id="name">
+          <input type="email" placeholder="Email Address" id="email">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" id="number">
+          <input type="text" placeholder="Email Subject" id="subject">
+        </div>
+        <textarea name="" id="text" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn" id="send" onclick="sendMail()" >
+       
+      </form>
+     </section>
+
+    <!-- footer design -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Abhijeet | All Right Reserved</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
