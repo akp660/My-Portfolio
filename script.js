@@ -89,8 +89,8 @@ function sendMail() {
     text: document.getElementById("text").value,
   };
 
-  const serviceID="service_hsl1c5x";
-const templetID="template_in8z0jc";
+  const serviceID="service_k10ukwb";
+const templetID="template_tcaynfh";
 
 emailjs.send(serviceID,templetID,params)
 .then(
