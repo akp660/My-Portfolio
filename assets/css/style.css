@@ -167,16 +167,11 @@ body {
 
 
 .QR {
-  /* position: absolute;
-  top: 2;
-  display: flex;
-  right: 0;
-  background: var(--bg-gradient-jet);
-  color: azure; */
+
   position: absolute;
   background: var(--eerie-black-1);
   padding: 15px;
-  /* padding-top: 45px; */
+
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   color: aliceblue;
