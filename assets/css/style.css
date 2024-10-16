@@ -171,7 +171,6 @@ body {
   position: absolute;
   background: var(--eerie-black-1);
   padding: 15px;
-
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   color: aliceblue;
@@ -189,6 +188,27 @@ body {
 .QR span {
   font-size: 22px;
 }
+
+
+.PlayStore {
+  background: var(--eerie-black-1);
+  color: aliceblue;
+  box-shadow: var(--shadow-2);
+  position: fixed;
+  right: 25px; /* Positions the card 20px from the right */
+  bottom: 80px; /* Positions the card 80px from the bottom */
+  display: flex; /* Use flexbox to center the image */
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  border-radius: 12px;
+}
+
+.PlayStore img {
+  width: 70px;
+  height: 70px;
+}
+
+
 
 /*-----------------------------------*\
   #REUSED STYLE
